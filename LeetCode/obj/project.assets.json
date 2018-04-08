@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\git\\LeetCode\\LeetCode\\LeetCode.csproj",
+      "projectUniqueName": "E:\\git\\LeetCodeSet\\LeetCode\\LeetCode.csproj",
       "projectName": "LeetCode",
-      "projectPath": "E:\\git\\LeetCode\\LeetCode\\LeetCode.csproj",
+      "projectPath": "E:\\git\\LeetCodeSet\\LeetCode\\LeetCode.csproj",
       "packagesPath": "C:\\Users\\singleXie\\.nuget\\packages\\",
-      "outputPath": "E:\\git\\LeetCode\\LeetCode\\obj\\",
+      "outputPath": "E:\\git\\LeetCodeSet\\LeetCode\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

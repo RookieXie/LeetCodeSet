@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace LeetCode
 {
@@ -9,11 +10,11 @@ namespace LeetCode
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            int[] s = {1,3};
+            int[] s = {-1,2,1,-4};
 
             int[] s1 = { 2 };
             int v =7;
-            var str = "aaabaaaa";
+            var str = "bacda";
             var need = "pi";
             ListNode l1 = new ListNode(1);
             l1.next = new ListNode(2);
@@ -23,9 +24,10 @@ namespace LeetCode
             l2.next = new ListNode(3);
             l2.next.next = new ListNode(4);
             //MCMXCVI
-            
-            var res = new LongestPalindromicSubstring().LongestPalindrome(str);
-            Console.WriteLine(res);
+
+            //var res = new LetterCombinationsofaPhoneNumber().LetterCombinations("2345");
+            //Console.WriteLine(res);
+            new Program().hh();
 
 
             Console.ReadKey();
@@ -56,6 +58,35 @@ namespace LeetCode
                 }
             }
             return res.ToArray();
+        }
+
+        public async Task<int> GetAsyncInt()
+        {
+            Console.WriteLine("异步获取数值One");
+            Task<int> t = Task.Run(() => { Console.WriteLine("异步获取数值One1111"); return 1; });
+            Console.WriteLine("异步获取数值OneTTTTT");
+            int res = await t;
+  
+            return res;
+        }
+        public async Task<int> GetAsyncIntTwo()
+        {
+            Console.WriteLine("异步获取数值Two");
+            Task<int> t = Task.Run(() => { Console.WriteLine("异步获取数值Two2222"); return 2; });
+            return await t;
+        }
+        public  async void hh()
+        {
+            int one =await GetAsyncInt();
+            
+            //Task.WaitAll(new Task[] { one });
+            int two =await GetAsyncIntTwo();
+            //two.Start();
+
+
+            Console.WriteLine(one*two);
+            
+
         }
     }
 }

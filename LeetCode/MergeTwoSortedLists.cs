@@ -21,6 +21,30 @@ namespace LeetCode
                 return l1;
             }
         }
+        public ListNode RemoveNthFromEnd(ListNode head, int n)
+        {
+            ListNode _list = head;
+            ListNode _list2 = head;
+            int i = 0;
+            //while (_list.next != null)
+            //{
+            //    i++;
+            //    _list = _list.next;
+            //}
+            //_list = head;
+            //for (int j = 0; j <=i-n; j++)
+            //{
+            //    _list = _list.next;
+            //}
+            //int k = 0;
+            //while (_list2.next != _list)
+            //{
+            //    _list2 = _list2.next;
+            //    k++;
+            //}
+            //_list2.next = _list.next;
+            return head;
+        }
     }
     public class ListNode
     {
@@ -28,6 +52,7 @@ namespace LeetCode
         public ListNode next;
         public ListNode(int x) { val = x; }
     }
+   
     /**
  * Definition for singly-linked list.
  * public class ListNode {

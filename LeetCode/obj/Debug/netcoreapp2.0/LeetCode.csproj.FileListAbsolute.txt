@@ -9,3 +9,14 @@ E:\git\LeetCode\LeetCode\obj\Debug\netcoreapp2.0\LeetCode.AssemblyInfoInputs.cac
 E:\git\LeetCode\LeetCode\obj\Debug\netcoreapp2.0\LeetCode.AssemblyInfo.cs
 E:\git\LeetCode\LeetCode\obj\Debug\netcoreapp2.0\LeetCode.dll
 E:\git\LeetCode\LeetCode\obj\Debug\netcoreapp2.0\LeetCode.pdb
+E:\git\LeetCodeSet\LeetCode\bin\Debug\netcoreapp2.0\LeetCode.deps.json
+E:\git\LeetCodeSet\LeetCode\bin\Debug\netcoreapp2.0\LeetCode.runtimeconfig.json
+E:\git\LeetCodeSet\LeetCode\bin\Debug\netcoreapp2.0\LeetCode.runtimeconfig.dev.json
+E:\git\LeetCodeSet\LeetCode\bin\Debug\netcoreapp2.0\LeetCode.dll
+E:\git\LeetCodeSet\LeetCode\bin\Debug\netcoreapp2.0\LeetCode.pdb
+E:\git\LeetCodeSet\LeetCode\obj\Debug\netcoreapp2.0\LeetCode.csprojResolveAssemblyReference.cache
+E:\git\LeetCodeSet\LeetCode\obj\Debug\netcoreapp2.0\LeetCode.csproj.CoreCompileInputs.cache
+E:\git\LeetCodeSet\LeetCode\obj\Debug\netcoreapp2.0\LeetCode.AssemblyInfoInputs.cache
+E:\git\LeetCodeSet\LeetCode\obj\Debug\netcoreapp2.0\LeetCode.AssemblyInfo.cs
+E:\git\LeetCodeSet\LeetCode\obj\Debug\netcoreapp2.0\LeetCode.dll
+E:\git\LeetCodeSet\LeetCode\obj\Debug\netcoreapp2.0\LeetCode.pdb
