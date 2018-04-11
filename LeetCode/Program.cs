@@ -10,7 +10,7 @@ namespace LeetCode
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            int[] s = {-1,2,1,-4};
+            int[] s = { 1, 2, -1, -2, 2, 1, -2, 1, 4, -5, 4 };
 
             int[] s1 = { 2 };
             int v =7;
@@ -25,9 +25,9 @@ namespace LeetCode
             l2.next.next = new ListNode(4);
             //MCMXCVI
 
-            //var res = new LetterCombinationsofaPhoneNumber().LetterCombinations("2345");
-            //Console.WriteLine(res);
-            new Program().hh();
+            var res = new LengthofLastWord().LengthOfLastWord(" ");
+            Console.WriteLine(res);
+            //new Program().hh();
 
 
             Console.ReadKey();
