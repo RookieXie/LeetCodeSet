@@ -14,6 +14,7 @@ namespace LeetCode
 
             int[] s1 = { 2 };
             int v =7;
+            var test = "";
             var str = "bacda";
             var need = "pi";
             ListNode l1 = new ListNode(1);
