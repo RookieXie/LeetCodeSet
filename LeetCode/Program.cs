@@ -13,9 +13,10 @@ namespace LeetCode
             int[] s = { 1, 2, -1, -2, 2, 1, -2, 1, 4, -5, 4 };
 
             int[] s1 = { 2 };
-            int v =7;
-            var str = "bacda";
-            var need = "pi";
+            //int v =7;
+            //var test = "";
+            //var str = "bacda";
+            //var need = "pi";
             ListNode l1 = new ListNode(1);
             l1.next = new ListNode(2);
             l1.next.next = new ListNode(4);
