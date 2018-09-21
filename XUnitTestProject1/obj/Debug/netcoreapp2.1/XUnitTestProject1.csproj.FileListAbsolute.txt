@@ -1,0 +1,17 @@
+F:\github\LeetCodeSet\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+F:\github\LeetCodeSet\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+F:\github\LeetCodeSet\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+F:\github\LeetCodeSet\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.deps.json
+F:\github\LeetCodeSet\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.runtimeconfig.json
+F:\github\LeetCodeSet\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.runtimeconfig.dev.json
+F:\github\LeetCodeSet\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.dll
+F:\github\LeetCodeSet\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.pdb
+F:\github\LeetCodeSet\XUnitTestProject1\bin\Debug\netcoreapp2.1\LeetCode.dll
+F:\github\LeetCodeSet\XUnitTestProject1\bin\Debug\netcoreapp2.1\LeetCode.pdb
+F:\github\LeetCodeSet\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.csprojAssemblyReference.cache
+F:\github\LeetCodeSet\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.csproj.CoreCompileInputs.cache
+F:\github\LeetCodeSet\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.AssemblyInfoInputs.cache
+F:\github\LeetCodeSet\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.AssemblyInfo.cs
+F:\github\LeetCodeSet\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.csproj.CopyComplete
+F:\github\LeetCodeSet\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.dll
+F:\github\LeetCodeSet\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.pdb
