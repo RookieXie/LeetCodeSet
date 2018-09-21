@@ -25,7 +25,7 @@ namespace LeetCode
         {
             ListNode _list = head;
             ListNode _list2 = head;
-            int i = 0;
+            //int i = 0;
             //while (_list.next != null)
             //{
             //    i++;
