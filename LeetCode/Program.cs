@@ -13,10 +13,10 @@ namespace LeetCode
             int[] s = { 1, 2, -1, -2, 2, 1, -2, 1, 4, -5, 4 };
 
             int[] s1 = { 2 };
-            //int v =7;
-            //var test = "";
-            //var str = "bacda";
-            //var need = "pi";
+            int v =7;
+            var test = "";
+            var str = "bacda";
+            var need = "pi";
             ListNode l1 = new ListNode(1);
             l1.next = new ListNode(2);
             l1.next.next = new ListNode(4);
@@ -32,7 +32,6 @@ namespace LeetCode
 
 
             Console.ReadKey();
-
         }
         public IList<IList<int>> ThreeSum(int[] nums)
         {
@@ -68,7 +67,7 @@ namespace LeetCode
             Task<int> t = Task.Run(() => { Console.WriteLine("异步获取数值One1111"); return 1; });
             Console.WriteLine("异步获取数值OneTTTTT");
             int res = await t;
-
+  
             return res;
         }
         public async Task<int> GetAsyncIntTwo()
@@ -77,17 +76,17 @@ namespace LeetCode
             Task<int> t = Task.Run(() => { Console.WriteLine("异步获取数值Two2222"); return 2; });
             return await t;
         }
-        public async void hh()
+        public  async void hh()
         {
-            int one = await GetAsyncInt();
-
+            int one =await GetAsyncInt();
+            
             //Task.WaitAll(new Task[] { one });
-            int two = await GetAsyncIntTwo();
+            int two =await GetAsyncIntTwo();
             //two.Start();
 
 
-            Console.WriteLine(one * two);
-
+            Console.WriteLine(one*two);
+            
 
         }
     }
