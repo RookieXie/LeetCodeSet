@@ -43,5 +43,14 @@ new int[] { 0, 3, 1, 0 }
             string lower = "hello";
             Assert.Equal(res, lower);
         }
+        [Fact]
+        public void AddBinaryTest()
+        {
+            string a = "1";
+            string b = "111";
+            string res = new AddBinarySolution().AddBinary(a,b);
+            string lower = "1000";
+            Assert.Equal(res, lower);
+        }
     }
 }

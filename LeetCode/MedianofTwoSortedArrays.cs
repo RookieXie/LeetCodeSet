@@ -40,7 +40,7 @@ namespace LeetCode
                 {
                     if (k == len)
                     {
-                        return Math.Round((nums1[k] + nums2[m - 1]) / 2.0, 1);
+                        return Math.Round((nums1[k-1] + nums2[m - 1]) / 2.0, 1);
                     }
                 }
                 for (int j = nums2.Length; j > 0; j--)
