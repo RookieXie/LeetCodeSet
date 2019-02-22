@@ -52,5 +52,24 @@ new int[] { 0, 3, 1, 0 }
             string lower = "1000";
             Assert.Equal(res, lower);
         }
+        [Fact]
+        public void SqrtTest()
+        {
+            int a = 4; 
+          
+            int res = new SqrtSolution().MySqrt(a);
+            int lower = 2147483647;
+            Assert.Equal(res, lower);
+        }
+        [Fact]
+        public void ClimbStairsTest()
+        {
+            int a = 3;
+
+            int res = new ClimbingStairsSolution().ClimbStairs(a);
+            int lower = 3;
+            Assert.Equal(res, lower);
+        }
+        
     }
 }
