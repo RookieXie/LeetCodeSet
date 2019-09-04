@@ -288,3 +288,7 @@ __pycache__/
 *.xsd.cs
 /LeetCode/GooglePay
 /LeetCode/123.xlsx
+/LeetCode/bin
+/LeetCode/obj
+/XUnitTestProject1/bin
+/XUnitTestProject1/obj
