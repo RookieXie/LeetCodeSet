@@ -12,7 +12,7 @@ namespace LeetCode.EPPlus
         public static string Import(string filePath)
         {
             FileInfo file = new FileInfo(filePath);
-            using (IDbConnection conn = new MySqlConnection("server=5940b72c83b87.sh.cdb.myqcloud.com;port=11131;uid=root;pwd=iuEKm1vK+Oqd5TQ=;database=pmh;Min Pool Size=0;Pooling=true;connect timeout=120;CharSet=utf8"))
+            using (IDbConnection conn = new MySqlConnection("XXX"))
             {
                 using (ExcelPackage package = new ExcelPackage(file))
                 {

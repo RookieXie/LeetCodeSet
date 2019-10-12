@@ -17,4 +17,9 @@
     <ProjectReference Include="..\LeetCode\LeetCode.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Easy\" />
+    <Folder Include="Medium\" />
+  </ItemGroup>
+
 </Project>
