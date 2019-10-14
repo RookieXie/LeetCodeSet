@@ -18,7 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Easy\" />
     <Folder Include="Medium\" />
   </ItemGroup>
 
