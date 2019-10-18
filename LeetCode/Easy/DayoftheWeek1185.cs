@@ -19,7 +19,7 @@ namespace LeetCode.Easy
         /// <param name="day"></param>
         /// <param name="month"></param>
         /// <param name="year"></param>
-        /// <returns></returns>
+        /// <returns>2019-10-17</returns>
         public string DayOfTheWeek(int day, int month, int year)
         {
             if (month == 1 || month == 2)

@@ -48,5 +48,21 @@ namespace XUnitTestProject1.Easy
             string output = dayoftheWeek1185.DayOfTheWeek(29,2,2016);
             Assert.Equal("Monday", output);
         }
+        [Fact]
+        public void UniqueMorseCodeWords804Test()
+        {
+            UniqueMorseCodeWords804 uniqueMorseCodeWords = new UniqueMorseCodeWords804();
+            string[] input = new string[] { "gin", "zen", "gig", "msg" };
+            int output = uniqueMorseCodeWords.UniqueMorseRepresentations(input);
+            Assert.Equal(2, output);
+        }
+        [Fact]
+        public void RemoveOutermostParentheses1021Test()
+        {
+            RemoveOutermostParentheses1021 removeOutermostParentheses1021 = new RemoveOutermostParentheses1021();
+            string input = "(()())(())";
+            string output = removeOutermostParentheses1021.RemoveOuterParentheses(input);
+            Assert.Equal("()()()", output);
+        }
     }
 }
