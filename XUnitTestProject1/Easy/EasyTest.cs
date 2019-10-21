@@ -1,4 +1,5 @@
-﻿using LeetCode.Easy;
+﻿using LeetCode;
+using LeetCode.Easy;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -72,6 +73,17 @@ namespace XUnitTestProject1.Easy
             int[] output = arrayByParity905.SortArrayByParity(input);
             Assert.Equal(new int[] { 2, 4, 1, 3 }, output);
         }
-        
+        [Fact]
+        public void RemoveDuplicatesfromSortedList83Test()
+        {
+            RemoveDuplicatesfromSortedList83 removeDuplicatesfromSortedList83 = new RemoveDuplicatesfromSortedList83();
+            ListNode input = new ListNode(2);
+            input.next = new ListNode(2);
+            input.next.next = new ListNode(2);
+            input.next.next = new ListNode(2);
+            ListNode output = removeDuplicatesfromSortedList83.DeleteDuplicates2(input);
+            Assert.Equal(1,1);
+        }
+
     }
 }
