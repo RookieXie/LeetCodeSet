@@ -64,5 +64,14 @@ namespace XUnitTestProject1.Easy
             string output = removeOutermostParentheses1021.RemoveOuterParentheses(input);
             Assert.Equal("()()()", output);
         }
+        [Fact]
+        public void SortArrayByParity905Test()
+        {
+            SortArrayByParity905 arrayByParity905 = new SortArrayByParity905();
+            int[] input = new int[] { 3, 1, 2, 4 };
+            int[] output = arrayByParity905.SortArrayByParity(input);
+            Assert.Equal(new int[] { 2, 4, 1, 3 }, output);
+        }
+        
     }
 }
