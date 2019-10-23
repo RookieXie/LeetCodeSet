@@ -29,9 +29,9 @@ namespace XUnitTestProject1.Easy
         public void MinimumAbsoluteDifference1200Test()
         {
             MinimumAbsoluteDifference1200 minimumAbsoluteDifference1200 = new MinimumAbsoluteDifference1200();
-            int[] input = new int[] { 4, 2, 1, 3};
+            int[] input = new int[] { 4, 2, 1, 3 };
             IList<IList<int>> output = minimumAbsoluteDifference1200.MinimumAbsDifference(input);
-            Assert.Equal(new List<List<int>> { new List<int> { 1,2 }, new List<int> { 2,3 }, new List<int> { 3,4} }.ToArray(),output);
+            Assert.Equal(new List<List<int>> { new List<int> { 1, 2 }, new List<int> { 2, 3 }, new List<int> { 3, 4 } }.ToArray(), output);
         }
         [Fact]
         public void MaximumNumberofBalloons1189Test()
@@ -45,8 +45,8 @@ namespace XUnitTestProject1.Easy
         public void DayoftheWeek1185Test()
         {
             DayoftheWeek1185 dayoftheWeek1185 = new DayoftheWeek1185();
-           
-            string output = dayoftheWeek1185.DayOfTheWeek(29,2,2016);
+
+            string output = dayoftheWeek1185.DayOfTheWeek(29, 2, 2016);
             Assert.Equal("Monday", output);
         }
         [Fact]
@@ -82,16 +82,32 @@ namespace XUnitTestProject1.Easy
             input.next.next = new ListNode(2);
             input.next.next = new ListNode(2);
             ListNode output = removeDuplicatesfromSortedList83.DeleteDuplicates2(input);
-            Assert.Equal(1,1);
+            Assert.Equal(1, 1);
         }
         [Fact]
         public void FlippinganImage832Test()
         {
             FlippinganImage832 flippinganImage832 = new FlippinganImage832();
-            int[][]input = new int[][] { new int[] { 1,1,0}, new int[] { 1,0,1 }, new int[] { 0,0,0} };
+            int[][] input = new int[][] { new int[] { 1, 1, 0 }, new int[] { 1, 0, 1 }, new int[] { 0, 0, 0 } };
             int[][] output = flippinganImage832.FlipAndInvertImage(input);
             Assert.Equal(new int[][] { new int[] { 1, 0, 0 }, new int[] { 0, 1, 0 }, new int[] { 1, 1, 1 } }, output);
         }
 
+        [Fact]
+        public void RobotReturntoOrigin657Test()
+        {
+            RobotReturntoOrigin657 robotReturntoOrigin657 = new RobotReturntoOrigin657();
+            string input = "LR";
+            bool output = robotReturntoOrigin657.JudgeCircle(input);
+            Assert.True(output);
+        }
+        [Fact]
+        public void SelfDividingNumbers728Test()
+        {
+            SelfDividingNumbers728 selfDividingNumbers728 = new SelfDividingNumbers728();
+            
+            IList<int> output = selfDividingNumbers728.SelfDividingNumbers(1,22);
+            Assert.True(true);
+        }
     }
 }
