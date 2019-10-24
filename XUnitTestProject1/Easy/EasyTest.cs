@@ -109,5 +109,13 @@ namespace XUnitTestProject1.Easy
             IList<int> output = selfDividingNumbers728.SelfDividingNumbers(1,22);
             Assert.True(true);
         }
+        [Fact]
+        public void SquaresofaSortedArray977Test()
+        {
+            SquaresofaSortedArray977 squaresofaSortedArray977 = new SquaresofaSortedArray977();
+            int[] input = new int[] { -4, -1, 0, 3, 10 };
+            int[] output = squaresofaSortedArray977.SortedSquares(input);
+            Assert.Equal(new int[] { 0, 1, 9, 16, 100 },output);
+        }
     }
 }
