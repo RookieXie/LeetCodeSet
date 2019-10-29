@@ -26,5 +26,13 @@ namespace XUnitTestProject1.Medium
             TreeNode output = greaterSumTree1038.BstToGst(node);
             Assert.True(true);
         }
+        [Fact]
+        public void EncodeandDecodeTinyURL535Test()
+        {
+            Codec codec = new Codec();
+            
+            string output = codec.encode("http://example.com/account/basin.html");
+            Assert.True(true);
+        }
     }
 }
