@@ -33,6 +33,10 @@ namespace LeetCode.Hard
      * **/
     public class BinaryTreeMaximumPathSum124
     {
+        /// <summary>
+        /// 题意理解：1.一个树，左右子节点与0对比取最大值，然后与父节点相加再与最大值比较取最大值，返回左右子树的最大值与父节点相加的值
+        /// 2.递归处理 循环1 操作
+        /// </summary>
         public int max = int.MinValue;
         public int MaxPathSum(TreeNode root)
         {
@@ -46,6 +50,7 @@ namespace LeetCode.Hard
             int left = Math.Max(0, MaxPathSum2(root.left));
             int right = Math.Max(0, MaxPathSum2(root.right));
             max = Math.Max(max, left + right + root.val);
+            //这一步返回值关键 表示 父节点的父节点如果往下走到父节点 只能走父节点和左右子节点的其中一个（所以比较最大值）
             return Math.Max(left, right) + root.val;
         }
     }

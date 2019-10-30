@@ -10,8 +10,45 @@ namespace LeetCode.Medium
 Given an array of integers rollMax and an integer n, return the number of distinct sequences that can be obtained with exact n rolls.
 
 Two sequences are considered different if at least one element differs from each other. Since the answer may be too large, return it modulo 10^9 + 7.
+    Example 1:
+
+    Input: n = 2, rollMax = [1,1,2,2,2,3]
+    Output: 34
+    Explanation: There will be 2 rolls of die, if there are no constraints on the die, there are 6 * 6 = 36 possible combinations. In this case, looking at rollMax array, the numbers 1 and 2 appear at most once consecutively, therefore sequences (1,1) and (2,2) cannot occur, so the final answer is 36-2 = 34.
+    Example 2:
+
+    Input: n = 2, rollMax = [1,1,1,1,1,1]
+    Output: 30
+    Example 3:
+
+    Input: n = 3, rollMax = [1,1,1,2,2,3]
+    Output: 181
+ 
+
+    Constraints:
+
+    1 <= n <= 5000
+    rollMax.length == 6
+    1 <= rollMax[i] <= 15
          */
     public class DiceRollSimulation1223
     {
+        /// <summary>
+        /// 暂无思路，理解题意有点歪了
+        /// </summary>
+        /// <param name="n"></param>
+        /// <param name="rollMax"></param>
+        /// <returns></returns>
+        public int DieSimulator(int n, int[] rollMax)
+        {
+            int res = 0;
+            Random random = new Random();
+            
+            for (int i = 0; i < n; i++)
+            {
+                
+            }
+            return res;
+        }
     }
 }

@@ -15,6 +15,9 @@ namespace LeetCode.Medium
     }
     public class Codec
     {
+        /// <summary>
+        /// 思路：长链接变短连接  还可以解码
+        /// </summary>
         Dictionary<string, string> map = new Dictionary<string, string>();
         string host = "http://tinyurl.com/";
         // Encodes a URL to a shortened URL
