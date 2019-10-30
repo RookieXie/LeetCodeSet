@@ -117,5 +117,13 @@ namespace XUnitTestProject1.Easy
             int[] output = squaresofaSortedArray977.SortedSquares(input);
             Assert.Equal(new int[] { 0, 1, 9, 16, 100 },output);
         }
+        [Fact]
+        public void ArrayPartitionI561Test()
+        {
+            ArrayPartitionI561 arrayPartitionI = new ArrayPartitionI561();
+            int[] input = new int[] { 1, 4, 3, 2 };
+            int output = arrayPartitionI.ArrayPairSum(input);
+            Assert.Equal(4, output);
+        }
     }
 }
