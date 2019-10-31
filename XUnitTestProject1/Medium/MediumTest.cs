@@ -76,5 +76,14 @@ namespace XUnitTestProject1.Medium
             }
             return root;
         }
+        [Fact]
+        public void ScoreAfterFlippingMatrix861Test()
+        {
+            ScoreAfterFlippingMatrix861 scoreAfterFlippingMatrix = new ScoreAfterFlippingMatrix861();
+            //[0,0,1,1],[1,0,1,0],[1,1,0,0]
+            int[][] nums = new int[][] { new int[] { 0, 0, 1, 1 },new int[] { 1, 0, 1, 0 }, new int[] { 1, 1, 0, 0 } };
+            int output = scoreAfterFlippingMatrix.MatrixScore(nums);
+            Assert.Equal(39,output);
+        }
     }
 }

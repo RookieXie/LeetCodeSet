@@ -41,14 +41,54 @@ namespace LeetCode.Medium
         {
             int M = A.Length;
             int N = A[0].Length;
-            for (int i = 0; i < N; i++)
+            int[] T = new int[N - 1];
+            for (int j = 0; j < N - 1; j++)
             {
-                for (int j = 0; j < M; j++)
+                T[j] = 0;
+            }
+            //第一列保证为1，不为1 改变这一行
+            for (int i = 0; i < M; i++)
+            {
+                if (A[i][0] == 0)
                 {
-
+                    A[i][0] = 1;
+                    for (int j = 1; j < N; j++)
+                    {
+                        A[i][j] = A[i][j] ^ 1;
+                    }
                 }
             }
-            return 1;
+            //统计第二列开始1 的数量
+            for (int i = 0; i < M; i++)
+            {
+                for (int j = 1; j < N; j++)
+                {
+                    T[j - 1] = A[i][j] == 1 ? T[j - 1] + 1 : T[j - 1];
+                }
+            }
+            //如果这列1的数量比行数的一半小或者等于,改变这一列
+            for (int i = 0; i < M; i++)
+            {
+                for (int j = 1; j < N; j++)
+                {
+                    if (T[j - 1] <= M / 2)
+                    {
+                        A[i][j] = A[i][j] ^ 1;
+                    }
+                }
+            }
+            //获取十进制数字
+            int res = 0;
+            for (int i = 0; i < M; i++)
+            {
+                int value = 1;
+                for (int j = N-1; j >=0; j--)
+                {
+                    res+=A[i][j] * value;
+                    value *= 2;
+                }
+            }
+            return res;
         }
     }
 }

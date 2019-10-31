@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LeetCode.Medium
 {
-    public class MaxIncreaseToKeepCitySkyline
+    public class MaxIncreaseToKeepCitySkyline807
     {
         /// <summary>
         /// 要求 二维数组从四面看的形状不变，可以在原来基础上加多少块
