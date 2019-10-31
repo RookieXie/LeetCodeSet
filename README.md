@@ -1,7 +1,7 @@
 # LeetCodeSet
-some LeetCode's solutions by C#
+some LeetCode's solutions 
 
-[√](http://baidu.com)
+
 ## EASY
 <table>
 
