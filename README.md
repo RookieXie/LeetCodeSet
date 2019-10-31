@@ -3,27 +3,7 @@ some LeetCode's solutions
 
 
 ## EASY
-<table>
-
-<tr>
-<td>题号</td>
-<td>题目</td>
-<td>C#</td>
-<td>JAVA</td>
-<td>Kotlin</td>
-</tr>
-<tr>
-<td>595</td>
-<td>Big Countries</td>
-<td style='color:green'>√</td>
-<td style='color:red'>x</td>
-<td style='color:red'>x</td>
-</tr>
-<tr>
-<td>561</td>
-<td>Array Partition I</td>
-<td style='color:green'>√</td>
-<td style='color:red'>x</td>
-<td style='color:red'>x</td>
-</tr>
-</table>
+题号|题目|C#|JAVA|Kotlin
+--|:--|:--|:--|:--
+595|Big Countries|√|x|x
+561|Array Partition I |√|x|x
