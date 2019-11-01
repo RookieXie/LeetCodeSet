@@ -39,7 +39,7 @@ namespace LeetCode.Medium
     public class Insertinto_a_Binary_Search_Tree701
     {
         /// <summary>
-        /// 思路 与节点判断大小，大 走右子节点  小走左子节点，直到节点为空，自己占用为止
+        /// 思路 与节点判断大小，大 走右子节点  小 走左子节点，直到节点为空，自己占用为止
         /// </summary>
         /// <param name="root"></param>
         /// <param name="val"></param>
