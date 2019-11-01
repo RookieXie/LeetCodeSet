@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LeetCode.Easy
 {
-    public class ToLowerCaseClass
+    public class ToLowerCaseClass709
     {
         public string ToLowerCase(string str)
         {

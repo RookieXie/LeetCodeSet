@@ -8,7 +8,7 @@ namespace LeetCode.Easy
     /// Given a valid (IPv4) IP address, return a defanged version of that IP address.
     /// A defanged IP address replaces every period "." with "[.]".
     /// </summary>
-    public class DefangingAnIPAddress1180
+    public class DefangingAnIPAddress1108
     {
         public string DefangIPaddr(string address)
         {

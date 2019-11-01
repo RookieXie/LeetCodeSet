@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LeetCode.Easy
 {
-    public class SqrtSolution
+    public class SqrtSolution69
     {
         /// <summary>
         /// 69. Sqrt(x)
