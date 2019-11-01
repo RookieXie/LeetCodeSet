@@ -54,11 +54,11 @@ namespace LeetCode.Medium
             {
                 if (root.val <= val)
                 {
-                    root.right=InsertIntoBST(root.right, val);
+                    root.right = InsertIntoBST(root.right, val);
                 }
                 else
                 {
-                    root.left=InsertIntoBST(root.left, val);
+                    root.left = InsertIntoBST(root.left, val);
                 }
 
             }
