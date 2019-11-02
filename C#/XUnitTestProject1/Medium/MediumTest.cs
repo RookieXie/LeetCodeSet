@@ -85,5 +85,14 @@ namespace XUnitTestProject1.Medium
             int output = scoreAfterFlippingMatrix.MatrixScore(nums);
             Assert.Equal(39,output);
         }
+        [Fact]
+        public void Maximum_Binary_Tree654Test()
+        {
+            Maximum_Binary_Tree654 maximum_Binary = new Maximum_Binary_Tree654();
+            //[0,0,1,1],[1,0,1,0],[1,1,0,0]
+            int[]nums = new int[] { 3, 2, 1, 6, 0, 5 };
+            TreeNode output = maximum_Binary.ConstructMaximumBinaryTree(nums);
+            Assert.True(true);
+        }
     }
 }
