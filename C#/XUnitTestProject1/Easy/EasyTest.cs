@@ -125,5 +125,14 @@ namespace XUnitTestProject1.Easy
             int output = arrayPartitionI.ArrayPairSum(input);
             Assert.Equal(4, output);
         }
+        [Fact]
+        public void Delete_Columns_to_Make_Sorted944Test()
+        {
+            Delete_Columns_to_Make_Sorted944 delete_Columns_To_Make_ = new Delete_Columns_to_Make_Sorted944();
+            string[] input = new string[] { "cba", "daf", "ghi" };
+            int output = delete_Columns_To_Make_.MinDeletionSize(input);
+            Assert.Equal(1, output);
+        }
+        
     }
 }

@@ -31,6 +31,7 @@ some LeetCode's solutions
 804|Unique MorseCodeWords|√|x|x
 709|To Lower Case  |√|x|x
 69|Sqrt(x)   |√|x|x
+944|Delete Columns to Make Sorted|√|x|x
 ## Medium
 题号|题目|C#|JAVA|Kotlin
 --|:--|:--|:--|:--
