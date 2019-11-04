@@ -31,7 +31,6 @@ some LeetCode's solutions
 804|Unique MorseCodeWords|√|x|x
 709|To Lower Case  |√|x|x
 69|Sqrt(x)   |√|x|x
-942|DI_String_Match |√|x|x
 ## Medium
 题号|题目|C#|JAVA|Kotlin
 --|:--|:--|:--|:--
@@ -41,7 +40,7 @@ some LeetCode's solutions
 1038|Binary Search Tree to Greater Sum Tree|√|x|x
 807|Max Increase to Keep City Skyline |√|x|x
 701|Insert into a Binary Search Tree |√|x|x
-654|Maximum_Binary_Tree|√|x|x
+1079|Letter Tile Possibilities|√|x|x
 
 ## Hard
 题号|题目|C#|JAVA|Kotlin

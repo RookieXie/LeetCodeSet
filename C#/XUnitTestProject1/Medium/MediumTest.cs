@@ -94,5 +94,15 @@ namespace XUnitTestProject1.Medium
             TreeNode output = maximum_Binary.ConstructMaximumBinaryTree(nums);
             Assert.True(true);
         }
+
+        [Fact]
+        public void Letter_Tile_Possibilities1079Test()
+        {
+            Letter_Tile_Possibilities1079 tile_Possibilities1079 = new Letter_Tile_Possibilities1079();
+            //[0,0,1,1],[1,0,1,0],[1,1,0,0]
+            string input = "AAB";
+            int output = tile_Possibilities1079.NumTilePossibilities2(input);
+            Assert.Equal(8, output);
+        }
     }
 }

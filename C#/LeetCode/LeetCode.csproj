@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Medium\Letter Tile Possibilities1079.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Dapper" Version="1.50.5" />
     <PackageReference Include="EPPlus" Version="4.5.3" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
