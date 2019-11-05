@@ -104,5 +104,14 @@ namespace XUnitTestProject1.Medium
             int output = tile_Possibilities1079.NumTilePossibilities2(input);
             Assert.Equal(8, output);
         }
+        [Fact]
+        public void Construct_Binary_Search_Tree_from_Preorder_Traversal1008Test()
+        {
+            Construct_Binary_Search_Tree_from_Preorder_Traversal1008 construct_Binary_Search_Tree_From_Preorder = new Construct_Binary_Search_Tree_from_Preorder_Traversal1008();
+            //[0,0,1,1],[1,0,1,0],[1,1,0,0]
+            int[] input = new int[] { 8, 5, 1, 7, 10, 12 };
+            TreeNode output = construct_Binary_Search_Tree_From_Preorder.BstFromPreorder(input);
+            Assert.True(output.val == 8);
+        }
     }
 }

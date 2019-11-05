@@ -32,6 +32,7 @@ some LeetCode's solutions
 709|To Lower Case  |√|x|x
 69|Sqrt(x)   |√|x|x
 944|Delete Columns to Make Sorted|√|x|x
+933|Number of Recent Calls|√|x|x
 ## Medium
 题号|题目|C#|JAVA|Kotlin
 --|:--|:--|:--|:--
@@ -42,6 +43,7 @@ some LeetCode's solutions
 807|Max Increase to Keep City Skyline |√|x|x
 701|Insert into a Binary Search Tree |√|x|x
 1079|Letter Tile Possibilities|√|x|x
+1008|Construct Binary Search Tree from Preorder Traversal|√|x|x
 
 ## Hard
 题号|题目|C#|JAVA|Kotlin
