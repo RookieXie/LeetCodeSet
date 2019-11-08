@@ -133,6 +133,14 @@ namespace XUnitTestProject1.Easy
             int output = delete_Columns_To_Make_.MinDeletionSize(input);
             Assert.Equal(1, output);
         }
-        
+        [Fact]
+        public void Pascal_sTriangle118Test()
+        {
+            Pascal_sTriangle118 pascal_STriangle = new Pascal_sTriangle118();
+            
+             pascal_STriangle.Generate(5);
+            Assert.True(true);
+        }
+
     }
 }
