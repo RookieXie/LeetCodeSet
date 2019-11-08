@@ -9,6 +9,7 @@ fun generate(numRows: Int): List<List<Int>> {
                 list.add(1);
             }
         }else{
+            list.add(1);
             for (t in 2..(i-1)) {
                 list.add(preList.get(t-1)+preList.get(t-2))
             }
