@@ -29,7 +29,7 @@ namespace LeetCode.Medium
         /// <summary>
         /// 思路：
         /// 1.从头尾开始 i=0，n=nums.Length-1,判断是否等于target，相等 退出循环 返回对应的i或者n
-        /// 2.如果num[i]<target i++; 否则判断 nums[n] < target  不存在目标值，否则 n--;
+        /// 2.如果 num[i]<target i++; 否则判断 nums[n] < target不存在目标值 退出循环 返回-1，否则 n--;
         /// </summary>
         /// <param name="nums"></param>
         /// <param name="target"></param>
