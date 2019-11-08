@@ -30,7 +30,7 @@ namespace XUnitTestProject1.Medium
         public void EncodeandDecodeTinyURL535Test()
         {
             Codec codec = new Codec();
-            
+
             string output = codec.encode("http://example.com/account/basin.html");
             Assert.True(true);
         }
@@ -38,8 +38,8 @@ namespace XUnitTestProject1.Medium
         public void MaximumLevelSumofaBinaryTree1161Test()
         {
             MaximumLevelSumofaBinaryTree1161 maximumLevelSumofaBinaryTree = new MaximumLevelSumofaBinaryTree1161();
-            int? [] nums = new int?[]{ 63909,43838,4549,-31714,-99701,-96320,88666,75152,-14750,-12671,60405,null,29388,null,null,null,-83674,null,null,-83490,null,-49913,86188,84455,null,null,null,null,null,null,null,null,null,-36061,91438,-75550};
-            var node =CreateTree(nums);
+            int?[] nums = new int?[] { 63909, 43838, 4549, -31714, -99701, -96320, 88666, 75152, -14750, -12671, 60405, null, 29388, null, null, null, -83674, null, null, -83490, null, -49913, 86188, 84455, null, null, null, null, null, null, null, null, null, -36061, 91438, -75550 };
+            var node = CreateTree(nums);
 
             int output = maximumLevelSumofaBinaryTree.MaxLevelSum(node);
             Assert.True(true);
@@ -81,16 +81,16 @@ namespace XUnitTestProject1.Medium
         {
             ScoreAfterFlippingMatrix861 scoreAfterFlippingMatrix = new ScoreAfterFlippingMatrix861();
             //[0,0,1,1],[1,0,1,0],[1,1,0,0]
-            int[][] nums = new int[][] { new int[] { 0, 0, 1, 1 },new int[] { 1, 0, 1, 0 }, new int[] { 1, 1, 0, 0 } };
+            int[][] nums = new int[][] { new int[] { 0, 0, 1, 1 }, new int[] { 1, 0, 1, 0 }, new int[] { 1, 1, 0, 0 } };
             int output = scoreAfterFlippingMatrix.MatrixScore(nums);
-            Assert.Equal(39,output);
+            Assert.Equal(39, output);
         }
         [Fact]
         public void Maximum_Binary_Tree654Test()
         {
             Maximum_Binary_Tree654 maximum_Binary = new Maximum_Binary_Tree654();
             //[0,0,1,1],[1,0,1,0],[1,1,0,0]
-            int[]nums = new int[] { 3, 2, 1, 6, 0, 5 };
+            int[] nums = new int[] { 3, 2, 1, 6, 0, 5 };
             TreeNode output = maximum_Binary.ConstructMaximumBinaryTree(nums);
             Assert.True(true);
         }
@@ -113,5 +113,15 @@ namespace XUnitTestProject1.Medium
             TreeNode output = construct_Binary_Search_Tree_From_Preorder.BstFromPreorder(input);
             Assert.True(output.val == 8);
         }
+        [Fact]
+        public void Search_in_Rotated_Sorted_Array33Test()
+        {
+            Search_in_Rotated_Sorted_Array33 search_In_Rotated_Sorted_ = new Search_in_Rotated_Sorted_Array33();
+            //[0,0,1,1],[1,0,1,0],[1,1,0,0]
+            int[] input = new int[] { 4, 5, 6, 7, 0, 1, 2 };
+            int output = search_In_Rotated_Sorted_.Search(input, 3);
+            Assert.Equal(-1, output);
+        }
+
     }
 }

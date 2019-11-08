@@ -46,6 +46,9 @@ some LeetCode's solutions
 1079|Letter Tile Possibilities|√|x|x
 1008|Construct Binary Search Tree from Preorder Traversal|√|x|x
 18|4Sum|√|x|x
+31|Next Permutation|√|x|x
+33|Search in Rotated Sorted Array|√|x|x
+
 
 ## Hard
 题号|题目|C#|JAVA|Kotlin

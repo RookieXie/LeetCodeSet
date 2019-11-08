@@ -21,29 +21,39 @@ namespace LeetCode.Medium
     {
         /// <summary>
         /// 思路： 题目无法理解 为解决问题
+        /// 1.Find the highest index i such that s[i] < s[i+1]. If no such index exists, the permutation is the last permutation.
+        /// 2.Find the highest index j > i such that s[j] > s[i]. Such a j must exist, since i+1 is such an index.
+        /// 3.Swap s[i] with s[j].
+        /// 4.Reverse the order of all of the elements after index i till the last element
         /// </summary>
         /// <param name="nums"></param>
         public void NextPermutation(int[] nums)
         {
-            int t = 0;
-            for (int i = 0; i < nums.Length-1; i++)
+            int n = nums.Length, k, l;
+            for (k = n - 2; k >= 0; k--)
             {
-                for (int j = i+1; j < nums.Length; j++)
+                if (nums[k] < nums[k + 1])
                 {
-                    if (nums[i] > nums[j])
+                    break;
+                }
+            }
+            if (k < 0)
+            {
+                Array.Reverse(nums);
+            }
+            else
+            {
+                for (l = n - 1; l > k; l--)
+                {
+                    if (nums[l] > nums[k])
                     {
-                        int temp = nums[i];
-                        nums[i] = nums[j];
-                        nums[j] = temp;
-                        t++;
+                        break;
                     }
                 }
-                if (i == nums.Length - 2 && t==0)
-                {
-                    int temp = nums[i];
-                    nums[i] = nums[nums.Length - 1];
-                    nums[nums.Length - 1] = temp;
-                }
+                int temp = nums[k];
+                nums[k] = nums[l];
+                nums[l] = temp;
+                Array.Reverse(nums, k+1, nums.Length-k-1);
             }
         }
     }
