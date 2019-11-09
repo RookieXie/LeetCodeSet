@@ -35,6 +35,7 @@ some LeetCode's solutions
 933|Number of Recent Calls|√|x|x
 88|Merge Sorted Array|√|x|x
 118|Pascal's Triangle|√|x|√
+119|Pascal's Triangle|x|√|√
 ## Medium
 题号|题目|C#|JAVA|Kotlin
 --|:--|:--|:--|:--
