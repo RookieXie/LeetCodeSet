@@ -35,7 +35,8 @@ some LeetCode's solutions
 933|Number of Recent Calls|√|x|x
 88|Merge Sorted Array|√|x|x
 118|Pascal's Triangle|√|x|√
-119|Pascal's Triangle|x|√|√
+119|Pascal's Triangle II|x|√|√
+121|Best Time to Buy and Sell Stock|x|√|x
 ## Medium
 题号|题目|C#|JAVA|Kotlin
 --|:--|:--|:--|:--
