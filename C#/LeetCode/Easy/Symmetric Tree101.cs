@@ -31,6 +31,11 @@ namespace LeetCode.Easy
      * **/
     public class Symmetric_Tree101
     {
+        /// <summary>
+        /// 思路：发现规律 左子树的左子树与右子树的右子树对应比较。左子树的右子树与右子树的左子树对应比较
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
         public bool IsSymmetric(TreeNode root)
         {
             bool res = true;
