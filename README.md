@@ -39,6 +39,8 @@ some LeetCode's solutions
 121|Best Time to Buy and Sell Stock|x|√|x
 100|Same Tree|√|x|x
 101|Symmetric Tree|√|x|x
+104|Maximum Depth of Binary Tree|√|x|x
+
 ## Medium
 题号|题目|C#|JAVA|Kotlin
 --|:--|:--|:--|:--
