@@ -122,6 +122,16 @@ namespace XUnitTestProject1.Medium
             int output = search_In_Rotated_Sorted_.Search(input, 3);
             Assert.Equal(-1, output);
         }
+        [Fact]
+        public void Validate_Binary_Search_Tree98Test()
+        {
+            Validate_Binary_Search_Tree98 validate_Binary_Search = new Validate_Binary_Search_Tree98();
+            //[0,0,1,1],[1,0,1,0],[1,1,0,0]
+            int?[] input = new int?[] { 0 };
+            var node = CreateTree(input);
+            bool output = validate_Binary_Search.isValidBST(node);
+            Assert.True(output);
+        }
 
     }
 }

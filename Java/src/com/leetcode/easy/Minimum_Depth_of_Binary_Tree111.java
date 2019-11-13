@@ -22,10 +22,10 @@ import com.leetcode.models.TreeNode;
 public class Minimum_Depth_of_Binary_Tree111 {
     //思路： 如果左右子树有一个为null,+1 之后取其中最大值，否则 +1之后取其中最小值
     public int minDepth(TreeNode root) {
-        if(root==null)
-        return 0;
-        int l=minDepth(root.left);
-        int r=minDepth(root.right);
-        return (l==0 || r==0)? Math.max(l+1,r+1):Math.min(l+1,r+1);
+        if (root == null)
+            return 0;
+        int l = minDepth(root.left);
+        int r = minDepth(root.right);
+        return (l == 0 || r == 0) ? Math.max(l + 1, r + 1) : Math.min(l + 1, r + 1);
     }
 }

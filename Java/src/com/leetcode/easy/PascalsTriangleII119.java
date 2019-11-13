@@ -3,6 +3,7 @@ package com.leetcode.easy;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
+
 /*
 Given a non-negative index k where k ≤ 33, return the kth index row of the Pascal's triangle.
 
@@ -24,18 +25,18 @@ public class PascalsTriangleII119 {
         List<Integer> prelist = new ArrayList<Integer>();
         for (int i = 0; i < rowIndex; i++) {
             List<Integer> list = new ArrayList<Integer>();
-            if(i<2){
-                for (int j = 0; j <=i ; j++) {
+            if (i < 2) {
+                for (int j = 0; j <= i; j++) {
                     list.add(1);
                 }
-            }else{
+            } else {
                 list.add(1);
                 for (int j = 1; j < i; j++) {
-                    list.add(prelist.get(j-1)+prelist.get(j));
+                    list.add(prelist.get(j - 1) + prelist.get(j));
                 }
                 list.add(1);
             }
-            prelist=list;
+            prelist = list;
         }
         return prelist;
     }

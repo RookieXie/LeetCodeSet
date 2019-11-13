@@ -57,6 +57,7 @@ some LeetCode's solutions
 31|Next Permutation|√|x|x
 33|Search in Rotated Sorted Array|√|x|x
 11|Container With Most Water|√|x|√
+98|Validate Binary Search Tree|√|√|x
 
 
 ## Hard

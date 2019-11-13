@@ -22,13 +22,13 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 public class BestTimetoBuyandSellStock121 {
     ///思路： 1.先找出后一天比当前天大的值，buy为当前天的值 2. 遍历当前天之后的做差
     public int maxProfit(int[] prices) {
-        int max=0;
-        for (int i = 0; i < prices.length-1; i++) {
+        int max = 0;
+        for (int i = 0; i < prices.length - 1; i++) {
             if (prices[i] < prices[i + 1]) {
 
-                for (int j = i+1; j <prices.length ; j++) {
-                    if(prices[j]-prices[i]>max){
-                        max=prices[j]-prices[i];
+                for (int j = i + 1; j < prices.length; j++) {
+                    if (prices[j] - prices[i] > max) {
+                        max = prices[j] - prices[i];
                     }
                 }
             }
