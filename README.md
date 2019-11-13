@@ -40,7 +40,7 @@ some LeetCode's solutions
 100|Same Tree|√|x|x
 101|Symmetric Tree|√|x|x
 104|Maximum Depth of Binary Tree|√|x|x
-111|Minimum Depth of Binary Tree|√|x|x
+111|Minimum Depth of Binary Tree|√|√|x
 
 ## Medium
 题号|题目|C#|JAVA|Kotlin
