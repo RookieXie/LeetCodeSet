@@ -7,16 +7,16 @@ namespace LeetCode.Medium
 {
     public class Validate_Binary_Search_Tree98
     {
-        public bool isValidBST(TreeNode root)
+        public bool IsValidBST(TreeNode root)
         {
-            return isBST(root, long.MaxValue, long.MinValue);
+            return IsBST(root, long.MaxValue, long.MinValue);
         }
-        public bool isBST(TreeNode treeNode, long max, long min)
+        public bool IsBST(TreeNode treeNode, long max, long min)
         {
             if (treeNode == null) return true;
             if (treeNode.val <= min || treeNode.val >= max)
                 return false;
-            return isBST(treeNode.left, treeNode.val, min) && isBST(treeNode.right, max, treeNode.val);
+            return IsBST(treeNode.left, treeNode.val, min) && IsBST(treeNode.right, max, treeNode.val);
         }
 
     }

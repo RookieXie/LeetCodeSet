@@ -41,6 +41,8 @@ some LeetCode's solutions
 101|Symmetric Tree|√|x|x
 104|Maximum Depth of Binary Tree|√|x|x
 111|Minimum Depth of Binary Tree|√|√|x
+112|Path_Sum|√|x|x
+
 
 ## Medium
 题号|题目|C#|JAVA|Kotlin
@@ -58,6 +60,7 @@ some LeetCode's solutions
 33|Search in Rotated Sorted Array|√|x|x
 11|Container With Most Water|√|x|√
 98|Validate Binary Search Tree|√|√|x
+113|Path Sum II |x|√|x
 
 
 ## Hard
