@@ -42,6 +42,8 @@ some LeetCode's solutions
 104|Maximum Depth of Binary Tree|√|x|x
 111|Minimum Depth of Binary Tree|√|√|x
 112|Path_Sum|√|x|x
+110|Balanced Binary Tree|√|x|x
+
 
 
 ## Medium
