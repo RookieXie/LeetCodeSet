@@ -63,6 +63,7 @@ some LeetCode's solutions
 11|Container With Most Water|√|x|√
 98|Validate Binary Search Tree|√|√|x
 113|Path Sum II |x|√|x
+49|Group Anagrams|x|√|x
 
 
 ## Hard

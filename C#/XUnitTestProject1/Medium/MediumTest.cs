@@ -129,9 +129,18 @@ namespace XUnitTestProject1.Medium
             //[0,0,1,1],[1,0,1,0],[1,1,0,0]
             int?[] input = new int?[] { 0 };
             var node = CreateTree(input);
-            bool output = validate_Binary_Search.isValidBST(node);
+            bool output = validate_Binary_Search.IsValidBST(node);
             Assert.True(output);
         }
-
+        [Fact]
+        public void VGroup_Anagrams49Test()
+        {
+            Group_Anagrams49 group_Anagrams49 = new Group_Anagrams49();
+            //[0,0,1,1],[1,0,1,0],[1,1,0,0]
+            string[] input = new string[] { "eat", "tea", "tan", "ate", "nat", "bat"};
+            var output = group_Anagrams49.GroupAnagrams(input);
+            Assert.True(true);
+        }
+        
     }
 }
