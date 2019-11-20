@@ -137,10 +137,22 @@ namespace XUnitTestProject1.Medium
         {
             Group_Anagrams49 group_Anagrams49 = new Group_Anagrams49();
             //[0,0,1,1],[1,0,1,0],[1,1,0,0]
-            string[] input = new string[] { "eat", "tea", "tan", "ate", "nat", "bat"};
+            string[] input = new string[] { "eat", "tea", "tan", "ate", "nat", "bat" };
             var output = group_Anagrams49.GroupAnagrams(input);
             Assert.True(true);
         }
-        
+        [Fact]
+        public void Fraction_to_Recurring_Decimal166Test()
+        {
+            Fraction_to_Recurring_Decimal166 recurring_Decimal166 = new Fraction_to_Recurring_Decimal166();
+            //[0,0,1,1],[1,0,1,0],[1,1,0,0]
+            int input1 = -1;
+
+            int input2 = 333;
+            var output = recurring_Decimal166.FractionToDecimal(input1, input2);
+            Assert.Equal("0.5", output);
+        }
+
+
     }
 }

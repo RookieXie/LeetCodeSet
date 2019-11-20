@@ -64,6 +64,8 @@ some LeetCode's solutions
 98|Validate Binary Search Tree|√|√|x
 113|Path Sum II |x|√|x
 49|Group Anagrams|x|√|x
+166|Fraction to Recurring Decimal|√|x|x
+
 
 
 ## Hard
