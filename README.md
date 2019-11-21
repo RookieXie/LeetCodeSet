@@ -66,6 +66,8 @@ some LeetCode's solutions
 49|Group Anagrams|x|√|x
 166|Fraction to Recurring Decimal|√|x|x
 187|Repeated DNA Sequences|√|x|x
+274|H-Index|√|x|x
+
 
 
 

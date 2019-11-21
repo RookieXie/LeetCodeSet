@@ -161,6 +161,16 @@ namespace XUnitTestProject1.Medium
             var output = sequences187.FindRepeatedDnaSequences(input);
             Assert.True(true);
         }
+        [Fact]
+        public void H_Index274Test()
+        {
+            H_Index274 h_Index274 = new H_Index274();
+            //[0,0,1,1],[1,0,1,0],[1,1,0,0]
+            int[] input = new int[] { 3, 0, 6, 1, 5 };
+            var output = h_Index274.HIndex(input);
+            Assert.True(true);
+        }
+        
 
     }
 }
