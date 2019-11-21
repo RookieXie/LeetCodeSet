@@ -152,7 +152,15 @@ namespace XUnitTestProject1.Medium
             var output = recurring_Decimal166.FractionToDecimal(input1, input2);
             Assert.Equal("0.5", output);
         }
-
+        [Fact]
+        public void Repeated_DNA_Sequences187Test()
+        {
+            Repeated_DNA_Sequences187 sequences187 = new Repeated_DNA_Sequences187();
+            //[0,0,1,1],[1,0,1,0],[1,1,0,0]
+            string input = "GAGAGAGAGAGAG";
+            var output = sequences187.FindRepeatedDnaSequences(input);
+            Assert.True(true);
+        }
 
     }
 }

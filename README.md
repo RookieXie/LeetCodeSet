@@ -65,6 +65,7 @@ some LeetCode's solutions
 113|Path Sum II |x|√|x
 49|Group Anagrams|x|√|x
 166|Fraction to Recurring Decimal|√|x|x
+187|Repeated DNA Sequences|√|x|x
 
 
 
