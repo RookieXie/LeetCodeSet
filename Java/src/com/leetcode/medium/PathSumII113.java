@@ -39,7 +39,7 @@ public class PathSumII113 {
 
     public void PathList(TreeNode root, int sum, List<Integer> _list) {
         if (root != null) {
-            List<Integer> list= new ArrayList<Integer>(_list);//防止引用类型问题
+            List<Integer> list = new ArrayList<Integer>(_list);//防止引用类型问题
             list.add(root.val);
             if (root.right == null && root.left == null && sum == root.val)
                 lists.add(list);

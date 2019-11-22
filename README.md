@@ -67,6 +67,7 @@ some LeetCode's solutions
 166|Fraction to Recurring Decimal|√|x|x
 187|Repeated DNA Sequences|√|x|x
 274|H-Index|√|x|x
+347|Top_K_Frequent_Elements|x|√|x
 
 
 
