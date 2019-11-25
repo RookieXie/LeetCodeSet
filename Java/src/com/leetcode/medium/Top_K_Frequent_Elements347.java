@@ -28,21 +28,21 @@ public class Top_K_Frequent_Elements347 {
         List<Integer> _list = new ArrayList<Integer>();
         for (int i = 0; i < nums.length; i++) {
             if (map.containsKey(nums[i])) {
-                int t = map.get(nums[i])+1;
-                map.put(nums[i],t);
+                int t = map.get(nums[i]) + 1;
+                map.put(nums[i], t);
             } else {
                 map.put(nums[i], 1);
                 _list.add(nums[i]);
             }
         }
         for (int i = 0; i < k; i++) {
-            int max=0;
-            int length=_list.size();
-            int key=0;
-            for (int j = 0; j < length ; j++) {
-                if(map.get(_list.get(j))>=max){
-                    max=map.get(_list.get(j));
-                    key=j;
+            int max = 0;
+            int length = _list.size();
+            int key = 0;
+            for (int j = 0; j < length; j++) {
+                if (map.get(_list.get(j)) >= max) {
+                    max = map.get(_list.get(j));
+                    key = j;
                 }
             }
             list.add(_list.get(key));
@@ -52,6 +52,7 @@ public class Top_K_Frequent_Elements347 {
 
         return list;
     }
+
     /*
     2.优化：减少数组的操作，使用HashMap的遍历
     */
@@ -60,19 +61,19 @@ public class Top_K_Frequent_Elements347 {
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; i++) {
             if (map.containsKey(nums[i])) {
-                int t = map.get(nums[i])+1;
-                map.put(nums[i],t);
+                int t = map.get(nums[i]) + 1;
+                map.put(nums[i], t);
             } else {
                 map.put(nums[i], 1);
             }
         }
         for (int i = 0; i < k; i++) {
-            int max=0;
-            int key=0;
-            for (Map.Entry<Integer,Integer> entry: map.entrySet() ) {
-                if(entry.getValue()>=max){
-                    max=entry.getValue();
-                    key=entry.getKey();
+            int max = 0;
+            int key = 0;
+            for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+                if (entry.getValue() >= max) {
+                    max = entry.getValue();
+                    key = entry.getKey();
                 }
             }
             list.add(key);

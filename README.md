@@ -43,6 +43,7 @@ some LeetCode's solutions
 111|Minimum Depth of Binary Tree|√|√|x
 112|Path_Sum|√|x|x
 110|Balanced Binary Tree|√|x|x
+257|Binary_Tree_Paths|x|√|x
 
 
 
@@ -68,6 +69,8 @@ some LeetCode's solutions
 187|Repeated DNA Sequences|√|x|x
 274|H-Index|√|x|x
 347|Top_K_Frequent_Elements|x|√|x
+105|Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal|x|√|x
+
 
 
 
