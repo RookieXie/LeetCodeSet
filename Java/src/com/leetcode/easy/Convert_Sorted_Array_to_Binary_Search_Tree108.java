@@ -23,17 +23,17 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 public class Convert_Sorted_Array_to_Binary_Search_Tree108 {
     //每次取中间值，左边归左子树 右边归子树，重复
     public TreeNode sortedArrayToBST(int[] nums) {
-        return GetTree(nums, 0, nums.length);
+        return getTree(nums, 0, nums.length);
     }
 
-    public TreeNode GetTree(int[] nums, int start, int end) {
+    public TreeNode getTree(int[] nums, int start, int end) {
         if (start >= end) {
             return null;
         }
         int mid = start + (end - start) / 2;
         TreeNode node = new TreeNode(nums[mid]);
-        node.left = GetTree(nums, start, mid);
-        node.right = GetTree(nums, mid + 1, end);
+        node.left = getTree(nums, start, mid);
+        node.right = getTree(nums, mid + 1, end);
         return node;
     }
 }
