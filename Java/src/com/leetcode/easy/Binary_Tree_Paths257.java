@@ -42,7 +42,7 @@ public class Binary_Tree_Paths257 {
     public void GetPath(String prePath, TreeNode node) {
         if (node != null) {
             prePath = prePath.isEmpty() ? node.val + "" : prePath + "->" + node.val;
-            if(node.left==null && node.right==null){
+            if (node.left == null && node.right == null) {
                 hs.add(prePath);
             }
             GetPath(prePath, node.left);
