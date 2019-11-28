@@ -170,7 +170,18 @@ namespace XUnitTestProject1.Medium
             var output = h_Index274.HIndex(input);
             Assert.True(true);
         }
-        
+        [Fact]
+        public void Flatten_Binary_Tree_to_Linked_List114Test()
+        {
+            Flatten_Binary_Tree_to_Linked_List114 flatten_Binary_ = new Flatten_Binary_Tree_to_Linked_List114();
+            //[0,0,1,1],[1,0,1,0],[1,1,0,0]
+            int?[] input = new int?[] { 1, 2, 5, 3, 4, null, 6 };
+            var node = CreateTree(input);
+            flatten_Binary_.flatten(node);
+            Assert.True(true);
+        }
+
+
 
     }
 }
