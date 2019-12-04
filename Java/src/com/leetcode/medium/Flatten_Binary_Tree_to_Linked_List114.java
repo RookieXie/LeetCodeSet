@@ -30,11 +30,12 @@ The flattened tree should look like:
 public class Flatten_Binary_Tree_to_Linked_List114 {
     //1 思路：1先找到右子树  ，2然后左子树，左子树的右子树重复1
     public void flatten(TreeNode root) {
-        solve(root,null);
+        solve(root, null);
 
     }
-    TreeNode solve(TreeNode root, TreeNode last)    {
-        if(root == null) return last;
+
+    TreeNode solve(TreeNode root, TreeNode last) {
+        if (root == null) return last;
         root.right = solve(root.left, solve(root.right, last));
         root.left = null;
         return root;
