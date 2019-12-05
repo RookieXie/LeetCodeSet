@@ -1,5 +1,6 @@
 package com.leetcode;
 
+import com.leetcode.easy.Valid_Perfect_Square367;
 import com.leetcode.medium.Validate_Binary_Search_Tree98;
 import com.leetcode.models.TreeNode;
 
@@ -22,6 +23,14 @@ public class Main {
 //        System.out.println(myList.get(1));//报错：ArrayIndexOutOfBoundsException
 //        int [] array=(int[]) myList.get(0);
 //        System.out.println(array[0]);//1
+        Valid_Perfect_Square367 square367=new Valid_Perfect_Square367();
+        boolean res=square367.isPerfectSquare(15);
+        boolean res1=square367.isPerfectSquare(9);
+        boolean res2=square367.isPerfectSquare(16);
+        System.out.println(res);
+        System.out.println(res1);
+        System.out.println(res2);
+
 
     }
 }
